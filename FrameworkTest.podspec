@@ -133,6 +133,11 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "JSONKit", "~> 1.4"
+  # spec.dependency
+  'SVProgressHUD'
+  'TweetNacl', '~> 1.0.0'
+  'secp256k1.swift', '~> 0.1.4'
+  'IrohaCrypto', '~> 0.10.0'
+  'keccak.c', '~> 0.1.3'
 
 end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043F614B2B7AE2DB003D88CD /* FrameworkTest.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 043F614A2B7AE2DB003D88CD /* FrameworkTest.podspec */; };
 		0487F49E2B511E6B001956FC /* FrameworkTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0487F49D2B511E6B001956FC /* FrameworkTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0487F4AB2B511EF8001956FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487F4AA2B511EF8001956FC /* AppDelegate.swift */; };
 		0487F4AD2B511EF8001956FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487F4AC2B511EF8001956FC /* SceneDelegate.swift */; };
@@ -412,6 +413,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		043F614A2B7AE2DB003D88CD /* FrameworkTest.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = FrameworkTest.podspec; sourceTree = SOURCE_ROOT; };
 		0487F49A2B511E6B001956FC /* FrameworkTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0487F49D2B511E6B001956FC /* FrameworkTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameworkTest.h; sourceTree = "<group>"; };
 		0487F4A82B511EF8001956FC /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -841,6 +843,7 @@
 		0487F49C2B511E6B001956FC /* FrameworkTest */ = {
 			isa = PBXGroup;
 			children = (
+				043F614A2B7AE2DB003D88CD /* FrameworkTest.podspec */,
 				0487F49D2B511E6B001956FC /* FrameworkTest.h */,
 				0487F4BC2B512295001956FC /* Testing.swift */,
 				0487F7E42B5147BE001956FC /* BigInt */,
@@ -1437,6 +1440,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043F614B2B7AE2DB003D88CD /* FrameworkTest.podspec in Resources */,
 				0487FA8F2B5147C0001956FC /* runtime-default.json in Resources */,
 				0487FA8E2B5147C0001956FC /* runtime-peaq.json in Resources */,
 			);
