@@ -78,7 +78,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source ={ :git => "https://github.com/VishalDobariya12/FrameworkTest.git", :tag => '1.0.1', :github => 'VishalDobariya12/FrameworkTest', :commit => 'commit-sha', :access_token => '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' }
+  spec.source ={ :git => "https://github.com/VishalDobariya12/FrameworkTest.git", :tag => '1.0.1', :github => 'VishalDobariya12/FrameworkTest', :access_token => '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' }
 
 
 
