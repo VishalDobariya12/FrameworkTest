@@ -79,6 +79,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.source       = { :git => "https://github.com/VishalDobariya12/FrameworkTest.git", :tag => '1.0.1' }
+    spec.source ={ :git => "https://github.com/VishalDobariya12/FrameworkTest.git", :tag => '1.0.1', :github => 'VishalDobariya12/FrameworkTest', :commit => 'commit-sha', :access_token => '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' }
+
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
