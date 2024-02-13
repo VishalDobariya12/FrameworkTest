@@ -6,7 +6,7 @@
 //
 
 import Foundation
-//import SVProgressHUD
+import SVProgressHUD
 
 public class Testing {
     
@@ -19,11 +19,11 @@ public class Testing {
     
     public func showLoader() {
         
-//        SVProgressHUD.show(withStatus: "LOADING")
-//        
-//        DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
-//            SVProgressHUD.dismiss()
-//        }
+        SVProgressHUD.show(withStatus: "LOADING")
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+            SVProgressHUD.dismiss()
+        }
         
     }
     

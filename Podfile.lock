@@ -1,3 +1,18 @@
-PODFILE CHECKSUM: 903f9a0b75d0ceba8ce26f9b6706f6ab9aef6ad7
+PODS:
+  - SVProgressHUD (2.3.1):
+    - SVProgressHUD/Core (= 2.3.1)
+  - SVProgressHUD/Core (2.3.1)
+
+DEPENDENCIES:
+  - SVProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
+
+PODFILE CHECKSUM: 2105253f305cbcaf4108603be32444b4b71e1e55
 
 COCOAPODS: 1.15.2
