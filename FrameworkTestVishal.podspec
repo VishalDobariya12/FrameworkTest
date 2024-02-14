@@ -115,8 +115,6 @@ Pod::Spec.new do |spec|
   #  Link your library with frameworks, or libraries. Libraries do not include
   #  the lib prefix of their name.
   #
-  
-  spec.vendored_frameworks = FrameworkTest.framework
 
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
